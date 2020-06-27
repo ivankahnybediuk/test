@@ -180,5 +180,61 @@ body{
             }
         }
     }
+    .why-us{
+        width: 100%;
+        margin-bottom: 160px;
+        h1{
+            font-size: 27px;
+            font-family:MuseoSansCyrl700;
+            color: $blue-text;
+            text-align: center;
+        }
+        h2{
+            font-size: 27px;
+            font-family:MuseoSansCyrl700;
+            color: #f2a1b6;
+            text-align: center; 
+            margin-bottom: 70px;
+        }
+        &__wrapper{
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            img{
+                margin: auto;
+            }
+            p{
+                text-align: center;
+                margin-top: 30px;
+                font-family:MuseoSansCyrl500;
+                font-size: 19px;
+                color: $blue-text;
+            }
+        }
+    }
+    .reviews{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 32% 68%;
+        gap: 15px;
+        &__title{
+            margin-left: 45px;
+            h1{
+                margin:10px 0x 0px 0px;
+                color: $blue-text;
+                font-size: 43px;
+                font-family:MuseoSansCyrl700;
+            }
+        }
+        &__slider{
+            padding: 60px 80px 25px 80px;
+            .reviews__item{
+                display: grid;
+                grid-template-columns: 37.66% 62.34%;
+                .reviews__author{
+                    
+                }
+            }
+        }
+    }
 }
 

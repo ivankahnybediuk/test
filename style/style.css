@@ -229,4 +229,74 @@ body {
   line-height: normal;
   padding: 0px 25px 60px 25px;
 }
+
+.main-wrapper .why-us {
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+.main-wrapper .why-us h1 {
+  font-size: 27px;
+  font-family: MuseoSansCyrl700;
+  color: #425a85;
+  text-align: center;
+}
+
+.main-wrapper .why-us h2 {
+  font-size: 27px;
+  font-family: MuseoSansCyrl700;
+  color: #f2a1b6;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.main-wrapper .why-us__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.main-wrapper .why-us__wrapper img {
+  margin: auto;
+}
+
+.main-wrapper .why-us__wrapper p {
+  text-align: center;
+  margin-top: 30px;
+  font-family: MuseoSansCyrl500;
+  font-size: 19px;
+  color: #425a85;
+}
+
+.main-wrapper .reviews {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 32% 68%;
+      grid-template-columns: 32% 68%;
+  gap: 15px;
+}
+
+.main-wrapper .reviews__title {
+  margin-left: 45px;
+}
+
+.main-wrapper .reviews__title h1 {
+  margin: 10px 0x 0px 0px;
+  color: #425a85;
+  font-size: 43px;
+  font-family: MuseoSansCyrl700;
+}
+
+.main-wrapper .reviews__slider {
+  padding: 60px 80px 25px 80px;
+}
+
+.main-wrapper .reviews__slider .reviews__item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 37.66% 62.34%;
+      grid-template-columns: 37.66% 62.34%;
+}
 /*# sourceMappingURL=style.css.map */
