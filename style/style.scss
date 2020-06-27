@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'MuseoSansCyrl300';
+    src: url('../fonts/MuseoSansCyrl-300.eot');
+    src: url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSansCyrl500';
+    src: url('../fonts/MuseoSansCyrl-500.eot');
+    src: url('MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSansCyrl700';
+    src: url('../fonts/MuseoSansCyrl-700.eot');
+    src: url('MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSansCyrl900';
+    src: url('../fonts/MuseoSansCyrl-900.eot');
+    src: url('MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-900.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+$blue-text:#425a85;
+body{
+    background-color: #f5f7fa;
+}
+.header-wrapper{
+    width: 100%;
+    padding:25px;
+    padding-left:13.541666%;
+    padding-right: 13.541666%;
+    background-color: #ebeef4;
+    display: grid;
+    grid-template-columns: 5.2% auto 15.466668%;
+    align-items: center;
+    gap: 15px;
+    .nav-bar{
+        display: flex;
+        justify-content: flex-start;
+        a{
+            color:$blue-text;
+            font-family:MuseoSansCyrl700 ;
+            font-size: 17px;
+            text-decoration: none;
+            padding: 0px 15px;
+        }
+
+    }
+    .search-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        div{
+            width: 30%;
+            margin: 0 1.6% ;
+            img{
+                margin: 0px auto;
+            }
+            p{
+                padding-top: 7px;
+                color:$blue-text;
+                font-family:MuseoSansCyrl700 ;
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+    }
+}
+.main-wrapper{
+    width: 100%;
+    padding: 0px 13.541666%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .category-cards{
+        margin-top: 75px;
+        margin-bottom: 125px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        &__1{
+            background-color: #ededed;
+            border-radius: 15px;
+            background-image: url("../img/category-card_1.png");
+        }
+        &__2{
+            background-color: #f6f6f6;
+            border-radius: 15px;
+            background-image: url("../img/category-card_2.png");
+        }
+        .category-card{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            background-position: left;
+            background-repeat: no-repeat;
+            p{
+                width: 30%;
+                margin: 65px 10% 80px;
+                color:$blue-text;
+                font-family:MuseoSansCyrl700 ;
+                font-size: 37px;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-family:MuseoSansCyrl500 ;
+                font-size: 20px;
+                height: 50px;
+                width:155px;
+                border-radius: 30px;
+                background-color: #7d9bd1;
+                text-align: center;
+                line-height: 50px;
+                margin:0px 60px 40px 0px;
+
+            }
+        }
+    }
+    .how-to-start{
+        width: 100%;
+        h1{
+            color: $blue-text;
+            font-size: 43px;
+            font-family:MuseoSansCyrl900;
+            text-align: center;
+        }
+        &__cards{
+            margin:55px 0px 140px 0px;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            gap: 10px;
+            .card-1{
+                background-color: #86a7e3;
+            }
+            .card-2{
+                background-color: #6fc3c0;
+            }
+            .card-3{
+                background-color: #e9a2b4;
+            }
+            .card-4{
+                background-color: #c1a5e1;
+            }
+        }
+        &__item{
+            border-radius: 15px;
+            img{
+                margin:60px auto 40px auto;
+            }
+            h2{
+                color: white;
+                font-size: 27px;
+                font-family:MuseoSansCyrl700;
+                text-align: center;
+            }
+            p{
+                margin-top: 25px;
+                color: white;
+                font-size: 15px;
+                font-family:MuseoSansCyrl500;
+                text-align: center; 
+                line-height: normal;
+                padding: 0px 25px 60px 25px;
+            }
+        }
+    }
+}
+
