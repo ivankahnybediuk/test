@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media.css">
     <link rel="stylesheet" href="style/null.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script src="https://kit.fontawesome.com/d71e0bb615.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -100,6 +102,11 @@
     </div>  
     </div>
     <div class="reviews">
+        <div class="arrows">
+            <div id="prev-arrow" ><i class="fas fa-arrow-left"></i></div>
+            <div id="next-arrow" ><i class="fas fa-arrow-right"></i></div>
+           </div>
+        <div class="wrapper">
         <div class="reviews__title">
             <img src="img/reviews.png" alt="reviews">
             <h1>Отзывы наших партнеров</h1>
@@ -107,24 +114,57 @@
         <div class="reviews__slider">
             <div class="reviews__item">
                 <div class="reviews__author">
-                    <div class="reviews__photo"><img src="/img/review-foto_1.png" alt="photo"></div>
+                    <div class="reviews__photo"><img src="/img/review-foto-2.png" alt="photo"></div>
                     <div class="reviews__name">Lorem ipsum dolor</div>
                     <div class="reviews__city">Kyiv, Ukraine</div>
                 </div>
                 <div class="reviews__text">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo non deserunt qui id inventore adipisci recusandae velit eveniet minus harum?</p>
-                    <div class="arrows">
-                    <div id="prev-arrow"><i class="fas fa-long-arrow-alt-left"></i></div>
-                    <div id="next-arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
-                   </div>
+                </div>
+            </div>
+            <div class="reviews__item">
+                <div class="reviews__author">
+                    <div class="reviews__photo"><img src="/img/review-foto_1.png" alt="photo"></div>
+                    <div class="reviews__name">Lorem ipsum dolor</div>
+                    <div class="reviews__city">Lviv, Ukraine</div>
+                </div>
+                <div class="reviews__text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo non deserunt qui id inventore adipisci recusandae velit eveniet minus harum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nostrum.</p>
                 </div>
             </div>
         </div>   
+    </div>
+    </div>
+    <div class="about-production">
+        <h1>Украинское производство детской одежды:</h1>
+        <h2>кратко о фабрике ТОТОША</h2>
+        <p>С первого дня существования команда ТМ ТАТОШКА стремится к тому, чтобы детская одежда нашего производства соответствовала наивысшим европейским стандартам. Выпуская детскую одежду из натуральных материалов, мы всегда заботимся об охране окружающей среды. Потому используемые для пошива текстильные материалы имеют сертификат Oeko-Tex® Standard-100, подтверждающий экологическую безопасность продукции.</p>
+    </div>
+    <div class="last-articles">
+        <h1>Последние статьи</h1>
+        <div class="article-wrapper">
+            <div class="article">
+                <img src="img/last-article_1.png" alt="child">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, aperiam?</p>
+            </div>
+            <div class="article">
+                <img src="img/last-article_2.png" alt="child">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, nisi!</p>
+            </div>
+            <div class="article">
+                <img src="img/last-article_3.png" alt="child">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempora?</p>
+            </div>
+        </div>
+        <div class="last-articles__more"><a href="#">Смотреть все  <span> <i class="fas fa-arrow-right"></i></span></a></div>
     </div>
 </div>
 
 
   <!-- ===================Scripts==========================   -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="index.js"></script>
 </body>
 </html>
