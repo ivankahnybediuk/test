@@ -11,3 +11,9 @@ $(document).ready(function(){
       documentWidth=document.documentElement.clientWidth
       console.log(documentWidth)
    })   
+   $(".burger").on("click", function(){
+    $(".nav-bar").css("display", "flex")
+});
+$(".nav-bar a").on("click", function(){
+    $(".nav-bar").css("display", "none")
+})
