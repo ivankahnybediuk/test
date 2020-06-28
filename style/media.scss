@@ -24,28 +24,20 @@
         .how-to-start__item{
             img{
                 margin:30px auto 20px auto;
-                height:20%;
+                height:30%;
             }
             h2{
-                color: white;
                 font-size: 24px;
-                font-family:MuseoSansCyrl700;
-                text-align: center;
             }
             p{
                 margin-top: 20px;
-                color: white;
                 font-size: 15px;
-                font-family:MuseoSansCyrl500;
-                text-align: center; 
-                line-height: normal;
-                padding: 0px 15px 20px 15px;
-            }
-            &:hover{
-                transform: scale(1.05);
-            }
         }
     }
     }
     }
+    .about-production{
+        width: 80%;
+    }
+}
 }
