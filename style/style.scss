@@ -140,6 +140,7 @@ body{
             align-items: flex-end;
             background-position: left;
             background-repeat: no-repeat;
+            background-size: contain;
             p{
                 width: 30%;
                 margin: 65px 10% 80px;
@@ -379,6 +380,9 @@ body{
             text-align: center;
             font-family:MuseoSansCyrl500;
             font-size: 17px;
+        }
+        img{
+            width: 100%;
         }
         .article{
             &:hover{

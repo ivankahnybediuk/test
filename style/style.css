@@ -218,6 +218,7 @@ body {
           align-items: flex-end;
   background-position: left;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .main-wrapper .category-cards .category-card p {
@@ -523,6 +524,10 @@ body {
   text-align: center;
   font-family: MuseoSansCyrl500;
   font-size: 17px;
+}
+
+.main-wrapper .last-articles .article-wrapper img {
+  width: 100%;
 }
 
 .main-wrapper .last-articles .article-wrapper .article:hover {

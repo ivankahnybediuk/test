@@ -1,1 +1,46 @@
-/* No CSS *//*# sourceMappingURL=media.css.map */
+@media screen and (max-width: 1700px) {
+  .header-wrapper {
+    -ms-grid-columns: 9% auto 20%;
+        grid-template-columns: 9% auto 20%;
+    text-align: center;
+  }
+  .main-wrapper .category-cards {
+    margin-bottom: 80px;
+  }
+  .main-wrapper .category-cards .category-card p {
+    font-size: 30px;
+    margin: 25px 6% 30px 1%;
+    width: 40%;
+    text-align: right;
+  }
+  .main-wrapper .category-cards .category-card a {
+    margin: 0px 6% 30px 0px;
+  }
+  .main-wrapper .how-to-start__cards {
+    margin: 55px 0px 90px 0px;
+  }
+  .main-wrapper .how-to-start__cards .how-to-start__item img {
+    margin: 30px auto 20px auto;
+    height: 20%;
+  }
+  .main-wrapper .how-to-start__cards .how-to-start__item h2 {
+    color: white;
+    font-size: 24px;
+    font-family: MuseoSansCyrl700;
+    text-align: center;
+  }
+  .main-wrapper .how-to-start__cards .how-to-start__item p {
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: MuseoSansCyrl500;
+    text-align: center;
+    line-height: normal;
+    padding: 0px 15px 20px 15px;
+  }
+  .main-wrapper .how-to-start__cards .how-to-start__item:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+/*# sourceMappingURL=media.css.map */
