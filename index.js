@@ -6,11 +6,7 @@ $(document).ready(function(){
       nextArrow:$("#next-arrow")
     });
   });
-   $(window).resize(function(){
-    let documentWidth;
-      documentWidth=document.documentElement.clientWidth
-      console.log(documentWidth)
-   })   
+ 
    $(".burger").on("click", function(){
     $(".nav-bar").css("display", "flex")
 });
