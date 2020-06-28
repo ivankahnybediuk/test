@@ -168,6 +168,7 @@
 }
 @media screen and (max-width:768px){
     .main-wrapper{
+        padding-top: 110px;
         .last-articles{
         .article-wrapper{
             grid-template-columns: 100%;
@@ -209,16 +210,18 @@
         }
         .search-box{
             div{
+                width: 15%;
                 p{
-                    font-size: 20px;
+                    font-size: 15px;
+                    text-align: center;
                 }
                 img{
-                    width: 60px;
+                    width: 40px;
                 }
             }
             .burger{
                 display: block;
-                font-size: 70px;
+                font-size: 40px;
             }
         }
         .nav-bar{
@@ -227,8 +230,8 @@
             text-align: center;
             display: none;
             a{
-                font-size: 40px;
-                padding: 40px;
+                font-size: 20px;
+                padding: 20px;
             }
         }
     }
